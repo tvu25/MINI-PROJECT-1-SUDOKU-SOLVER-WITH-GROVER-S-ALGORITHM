@@ -18,11 +18,9 @@ To solve the 4x4 Sudoku puzzle using Grover's algorithm, we need to implement a 
     Diffuser Implementation:
 
         The diffuser amplifies the amplitude of marked states by applying Hadamard gates, a multi-controlled Z gate (for the |0⟩ state), and Hadamard gates again.
+    Grover Iterations:
 
-Grover Iterations:
+        Perform the optimal number of Grover iterations (≈ √N, where N is the number of possible states for variable cells) to maximize the probability of measuring a valid solution.
+    Measurement:
 
-    Perform the optimal number of Grover iterations (≈ √N, where N is the number of possible states for variable cells) to maximize the probability of measuring a valid solution.
-
-Measurement:
-
-    Measure the grid qubits to obtain the solution.
+        Measure the grid qubits to obtain the solution.
