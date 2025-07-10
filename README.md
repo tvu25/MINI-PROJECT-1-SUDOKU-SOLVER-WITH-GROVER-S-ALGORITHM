@@ -6,10 +6,10 @@ This project implements a Grover's algorithm-based solver for 4x4 Sudoku puzzles
 
 ## Features
 
-- 🧩 **Solves 4x4 Sudoku** with quantum Grover search
-- 🌀 **Purely quantum circuit**: no classical bits or measurements
-- 📦 **Reusable gates**: oracle and diffuser are defined with `.to_gate()` for modularity and circuit readability
-- 🔎 **Post-processing** uses statevector to extract the peak probability assignment (valid solution)
+-  **Solves 4x4 Sudoku** with quantum Grover search
+-  **Purely quantum circuit**: no classical bits or measurements
+-  **Reusable gates**: oracle and diffuser are defined with `.to_gate()` for modularity and circuit readability
+-  **Post-processing** uses statevector to extract the peak probability assignment (valid solution)
 
 ---
 
