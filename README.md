@@ -24,7 +24,7 @@ Install via pip:
 pip install qiskit
 
 
-** Usage**
+**Usage**
 
 Run the main script directly:
 python quantum_sudoku_solver.py
